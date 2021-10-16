@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>添加音乐</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h1>添加音乐到曲库</h1>
+        <div id="musicList" class="mb-4">
+            <p>当前播放列表为空，您还未选择任何音乐文件</p>
+        </div>
+        <div class="d-grid gap-2 mt-4">
+            <button id="chooseFile" class="btn btn-outline-dark" type="button">选择音乐</button>
+            <button id="inputFile" class="btn btn-dark" type="button">导入音乐</button>
+        </div>
+    </div>
+    <script>
+        require('./add.js')
+    </script>
+</body>
+
+</html>
